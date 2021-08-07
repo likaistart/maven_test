@@ -1,0 +1,14 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(Ğ±›Ë8§œ‹ï¬/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸…’ı
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù½¸“øÿÿÿÿ
+
+java:S1488¢"\Immediately return this expression instead of assigning it to the temporary variable "time".(İÖçşÿÿÿÿ8†÷’î¬/
+]	java:S125"<This block of commented-out lines of code should be removed.( ¨“×øÿÿÿÿ8ûò¶è¬/
+\
+java:S3252"?Use static access with "com.alibaba.fastjson.JSON" for "parse".(ó“–İ8­œ‹ï¬/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Òê¾äüÿÿÿÿ8­œ‹ï¬/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¬Š÷8®œ‹ï¬/
+X	java:S125"<This block of commented-out lines of code should be removed.(‡‹Ü8¯œ‹ï¬/
+Y	java:S125˜"<This block of commented-out lines of code should be removed.(ñ×òß8ÜäŠï¬/

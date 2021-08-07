@@ -1,0 +1,15 @@
+
+K
+java:S3740Â"/Provide the parametrized type for this generic.(‡Š•Åıÿÿÿÿ
+K
+java:S3740Â"/Provide the parametrized type for this generic.(‡Š•Åıÿÿÿÿ
+\
+java:S1126c"AReplace this if-then-else statement by a single return statement.(ô‡œşøÿÿÿÿ
+X
+java:S1126…"AReplace this if-then-else statement by a single return statement.(˜ñÑ»
+]
+java:S1126™"AReplace this if-then-else statement by a single return statement.(ÿº Ëúÿÿÿÿ
+d	java:S100½"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°úí
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à­şşÿÿÿÿÿ
+R
+java:S25898"7Remove this expression which always evaluates to "true"(¶”Ñƒùÿÿÿÿ

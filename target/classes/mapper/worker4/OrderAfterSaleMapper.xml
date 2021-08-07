@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="date2021.date.mapper.worker4.OrderAfterSaleMapper">
+  <resultMap id="BaseResultMap" type="date2021.date.model.worker4.OrderAfterSale">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="order_after_sale_no" jdbcType="VARCHAR" property="orderAfterSaleNo" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="worker_id" jdbcType="BIGINT" property="workerId" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="is_cost" jdbcType="VARCHAR" property="isCost" />
+    <result column="after_sale_reason" jdbcType="VARCHAR" property="afterSaleReason" />
+    <result column="user_remark" jdbcType="VARCHAR" property="userRemark" />
+    <result column="worker_remark" jdbcType="VARCHAR" property="workerRemark" />
+    <result column="cost" jdbcType="DECIMAL" property="cost" />
+    <result column="cost_reason" jdbcType="VARCHAR" property="costReason" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime" />
+    <result column="creator_id" jdbcType="INTEGER" property="creatorId" />
+    <result column="admin_id" jdbcType="INTEGER" property="adminId" />
+    <result column="all_cost" jdbcType="DECIMAL" property="allCost" />
+    <result column="is_pay" jdbcType="VARCHAR" property="isPay" />
+    <result column="deal_with_time" jdbcType="TIMESTAMP" property="dealWithTime" />
+    <result column="write_off_time" jdbcType="TIMESTAMP" property="writeOffTime" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+    <result column="hope_result_treatment" jdbcType="VARCHAR" property="hopeResultTreatment" />
+    <result column="customer_name" jdbcType="VARCHAR" property="customerName" />
+    <result column="customer_phone" jdbcType="VARCHAR" property="customerPhone" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, order_after_sale_no, user_id, worker_id, order_no, is_cost, after_sale_reason, 
+    user_remark, worker_remark, cost, cost_reason, status, created_at, updated_at, finish_time, 
+    creator_id, admin_id, all_cost, is_pay, deal_with_time, write_off_time, source, hope_result_treatment, 
+    customer_name, customer_phone
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from b2c_order_after_sale
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from b2c_order_after_sale
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="date2021.date.model.worker4.OrderAfterSale">
+    insert into b2c_order_after_sale (id, order_after_sale_no, user_id, 
+      worker_id, order_no, is_cost, 
+      after_sale_reason, user_remark, worker_remark, 
+      cost, cost_reason, status, 
+      created_at, updated_at, finish_time, 
+      creator_id, admin_id, all_cost, 
+      is_pay, deal_with_time, write_off_time, 
+      source, hope_result_treatment, customer_name, 
+      customer_phone)
+    values (#{id,jdbcType=INTEGER}, #{orderAfterSaleNo,jdbcType=VARCHAR}, #{userId,jdbcType=BIGINT}, 
+      #{workerId,jdbcType=BIGINT}, #{orderNo,jdbcType=VARCHAR}, #{isCost,jdbcType=VARCHAR}, 
+      #{afterSaleReason,jdbcType=VARCHAR}, #{userRemark,jdbcType=VARCHAR}, #{workerRemark,jdbcType=VARCHAR}, 
+      #{cost,jdbcType=DECIMAL}, #{costReason,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, 
+      #{createdAt,jdbcType=TIMESTAMP}, #{updatedAt,jdbcType=TIMESTAMP}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{creatorId,jdbcType=INTEGER}, #{adminId,jdbcType=INTEGER}, #{allCost,jdbcType=DECIMAL}, 
+      #{isPay,jdbcType=VARCHAR}, #{dealWithTime,jdbcType=TIMESTAMP}, #{writeOffTime,jdbcType=TIMESTAMP}, 
+      #{source,jdbcType=VARCHAR}, #{hopeResultTreatment,jdbcType=VARCHAR}, #{customerName,jdbcType=VARCHAR}, 
+      #{customerPhone,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="date2021.date.model.worker4.OrderAfterSale">
+    insert into b2c_order_after_sale
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="orderAfterSaleNo != null">
+        order_after_sale_no,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="workerId != null">
+        worker_id,
+      </if>
+      <if test="orderNo != null">
+        order_no,
+      </if>
+      <if test="isCost != null">
+        is_cost,
+      </if>
+      <if test="afterSaleReason != null">
+        after_sale_reason,
+      </if>
+      <if test="userRemark != null">
+        user_remark,
+      </if>
+      <if test="workerRemark != null">
+        worker_remark,
+      </if>
+      <if test="cost != null">
+        cost,
+      </if>
+      <if test="costReason != null">
+        cost_reason,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="createdAt != null">
+        created_at,
+      </if>
+      <if test="updatedAt != null">
+        updated_at,
+      </if>
+      <if test="finishTime != null">
+        finish_time,
+      </if>
+      <if test="creatorId != null">
+        creator_id,
+      </if>
+      <if test="adminId != null">
+        admin_id,
+      </if>
+      <if test="allCost != null">
+        all_cost,
+      </if>
+      <if test="isPay != null">
+        is_pay,
+      </if>
+      <if test="dealWithTime != null">
+        deal_with_time,
+      </if>
+      <if test="writeOffTime != null">
+        write_off_time,
+      </if>
+      <if test="source != null">
+        source,
+      </if>
+      <if test="hopeResultTreatment != null">
+        hope_result_treatment,
+      </if>
+      <if test="customerName != null">
+        customer_name,
+      </if>
+      <if test="customerPhone != null">
+        customer_phone,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="orderAfterSaleNo != null">
+        #{orderAfterSaleNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="workerId != null">
+        #{workerId,jdbcType=BIGINT},
+      </if>
+      <if test="orderNo != null">
+        #{orderNo,jdbcType=VARCHAR},
+      </if>
+      <if test="isCost != null">
+        #{isCost,jdbcType=VARCHAR},
+      </if>
+      <if test="afterSaleReason != null">
+        #{afterSaleReason,jdbcType=VARCHAR},
+      </if>
+      <if test="userRemark != null">
+        #{userRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="workerRemark != null">
+        #{workerRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="cost != null">
+        #{cost,jdbcType=DECIMAL},
+      </if>
+      <if test="costReason != null">
+        #{costReason,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null">
+        #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="creatorId != null">
+        #{creatorId,jdbcType=INTEGER},
+      </if>
+      <if test="adminId != null">
+        #{adminId,jdbcType=INTEGER},
+      </if>
+      <if test="allCost != null">
+        #{allCost,jdbcType=DECIMAL},
+      </if>
+      <if test="isPay != null">
+        #{isPay,jdbcType=VARCHAR},
+      </if>
+      <if test="dealWithTime != null">
+        #{dealWithTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="writeOffTime != null">
+        #{writeOffTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="source != null">
+        #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="hopeResultTreatment != null">
+        #{hopeResultTreatment,jdbcType=VARCHAR},
+      </if>
+      <if test="customerName != null">
+        #{customerName,jdbcType=VARCHAR},
+      </if>
+      <if test="customerPhone != null">
+        #{customerPhone,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="date2021.date.model.worker4.OrderAfterSale">
+    update b2c_order_after_sale
+    <set>
+      <if test="orderAfterSaleNo != null">
+        order_after_sale_no = #{orderAfterSaleNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="workerId != null">
+        worker_id = #{workerId,jdbcType=BIGINT},
+      </if>
+      <if test="orderNo != null">
+        order_no = #{orderNo,jdbcType=VARCHAR},
+      </if>
+      <if test="isCost != null">
+        is_cost = #{isCost,jdbcType=VARCHAR},
+      </if>
+      <if test="afterSaleReason != null">
+        after_sale_reason = #{afterSaleReason,jdbcType=VARCHAR},
+      </if>
+      <if test="userRemark != null">
+        user_remark = #{userRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="workerRemark != null">
+        worker_remark = #{workerRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="cost != null">
+        cost = #{cost,jdbcType=DECIMAL},
+      </if>
+      <if test="costReason != null">
+        cost_reason = #{costReason,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="createdAt != null">
+        created_at = #{createdAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updatedAt != null">
+        updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="finishTime != null">
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="creatorId != null">
+        creator_id = #{creatorId,jdbcType=INTEGER},
+      </if>
+      <if test="adminId != null">
+        admin_id = #{adminId,jdbcType=INTEGER},
+      </if>
+      <if test="allCost != null">
+        all_cost = #{allCost,jdbcType=DECIMAL},
+      </if>
+      <if test="isPay != null">
+        is_pay = #{isPay,jdbcType=VARCHAR},
+      </if>
+      <if test="dealWithTime != null">
+        deal_with_time = #{dealWithTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="writeOffTime != null">
+        write_off_time = #{writeOffTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="source != null">
+        source = #{source,jdbcType=VARCHAR},
+      </if>
+      <if test="hopeResultTreatment != null">
+        hope_result_treatment = #{hopeResultTreatment,jdbcType=VARCHAR},
+      </if>
+      <if test="customerName != null">
+        customer_name = #{customerName,jdbcType=VARCHAR},
+      </if>
+      <if test="customerPhone != null">
+        customer_phone = #{customerPhone,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="date2021.date.model.worker4.OrderAfterSale">
+    update b2c_order_after_sale
+    set order_after_sale_no = #{orderAfterSaleNo,jdbcType=VARCHAR},
+      user_id = #{userId,jdbcType=BIGINT},
+      worker_id = #{workerId,jdbcType=BIGINT},
+      order_no = #{orderNo,jdbcType=VARCHAR},
+      is_cost = #{isCost,jdbcType=VARCHAR},
+      after_sale_reason = #{afterSaleReason,jdbcType=VARCHAR},
+      user_remark = #{userRemark,jdbcType=VARCHAR},
+      worker_remark = #{workerRemark,jdbcType=VARCHAR},
+      cost = #{cost,jdbcType=DECIMAL},
+      cost_reason = #{costReason,jdbcType=VARCHAR},
+      status = #{status,jdbcType=VARCHAR},
+      created_at = #{createdAt,jdbcType=TIMESTAMP},
+      updated_at = #{updatedAt,jdbcType=TIMESTAMP},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      creator_id = #{creatorId,jdbcType=INTEGER},
+      admin_id = #{adminId,jdbcType=INTEGER},
+      all_cost = #{allCost,jdbcType=DECIMAL},
+      is_pay = #{isPay,jdbcType=VARCHAR},
+      deal_with_time = #{dealWithTime,jdbcType=TIMESTAMP},
+      write_off_time = #{writeOffTime,jdbcType=TIMESTAMP},
+      source = #{source,jdbcType=VARCHAR},
+      hope_result_treatment = #{hopeResultTreatment,jdbcType=VARCHAR},
+      customer_name = #{customerName,jdbcType=VARCHAR},
+      customer_phone = #{customerPhone,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

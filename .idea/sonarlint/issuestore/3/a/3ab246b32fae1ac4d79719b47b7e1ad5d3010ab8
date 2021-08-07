@@ -1,0 +1,31 @@
+
+a
+java:S2147\"DCombine this catch with the one at line 89, which has the same body.(”ı¾8¯ö¦¡±/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(áó¡½üÿÿÿÿ8±ö¦¡±/
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8²ö¦¡±/
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ÁÁˆ»8²ö¦¡±/
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8³ö¦¡±/
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(»µ‚·ÿÿÿÿÿ8³ö¦¡±/
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8³ö¦¡±/
+C
+java:S1481>"'Remove this unused "id" local variable.(°æ—L8´ö¦¡±/
+L
+java:S1481?"*Remove this unused "title" local variable.(Å—‚›ıÿÿÿÿ8´ö¦¡±/
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ8¸ö¦¡±/
+Z	java:S106W"9Replace this use of System.out or System.err by a logger.(İ„ó¡ıÿÿÿÿ8ºö¦¡±/
+O
+java:S1135]"2Complete the task associated to this TODO comment.(‡ñÅ¼8¼ö¦¡±/
+T	java:S106`"9Replace this use of System.out or System.err by a logger.(Ë³ø{8¼ö¦¡±/
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ8½ö¦¡±/
+_
+java:S2153i"IRemove the boxing to "Integer"; The argument is already of the same type.(˜Ö˜
+t
+java:S11928"RDefine a constant instead of duplicating this literal "-----------------" 3 times.(Å˜õçüÿÿÿÿ8Âö¦¡±/
+f	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Ö˜
+T
+java:S4973m"9Use the "equals" method if value comparison was intended.(üõÒ´üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š·Æúÿÿÿÿ
+j
+java:S2095/"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8«÷¦¡±/
+i
+java:S20953"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ8«÷¦¡±/

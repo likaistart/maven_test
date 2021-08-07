@@ -1,0 +1,14 @@
+
+f
+java:S4143"DVerify this is the key that was intended; it was already set before.(¥€Ë¥üÿÿÿÿ8´…·Ú°/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8¶…·Ú°/
+]	java:S125"<This block of commented-out lines of code should be removed.(×ç„¡şÿÿÿÿ8¸…·Ú°/
+]	java:S125"<This block of commented-out lines of code should be removed.(İÓıîøÿÿÿÿ8¸…·Ú°/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ²­–ùÿÿÿÿ8¹…·Ú°/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×°³8»…·Ú°/
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(£œŠĞûÿÿÿÿ8»…·Ú°/
+I
+java:S1144(",Remove this unused private "getMap1" method.(µ‘°¼8Á…·Ú°/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·ú¼8Ã…·Ú°/

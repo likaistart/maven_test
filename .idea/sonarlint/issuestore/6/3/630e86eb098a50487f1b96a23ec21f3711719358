@@ -1,0 +1,36 @@
+
+Z
+java:S2147d"DCombine this catch with the one at line 97, which has the same body.(”ý¾
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(áó¡½üÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(²Ü™ýÿÿÿÿ
+<
+java:S1481D"'Remove this unused "id" local variable.(°æ—L
+E
+java:S1481E"*Remove this unused "title" local variable.(Å—‚›ýÿÿÿÿ
+Q	java:S125K"<This block of commented-out lines of code should be removed.(Î®Ô›
+V	java:S125T"<This block of commented-out lines of code should be removed.(¨•¥©øÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(‚é€Þûÿÿÿÿ
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(Ý„ó¡ýÿÿÿÿ
+H
+java:S1135e"2Complete the task associated to this TODO comment.(‡ñÅ¼
+M	java:S106h"9Replace this use of System.out or System.err by a logger.(Ë³ø{
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ8ûˆï£±/
+_
+java:S2153r"IRemove the boxing to "Integer"; The argument is already of the same type.(ž˜Ö˜
+R
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$8½ãî£±/
+]
+java:S1128";Remove this unused import 'com.alibaba.fastjson.JSONArray'.(ÿÀâ³ùÿÿÿÿ8½ãî£±/
+p
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(û­8½ãî£±/
+f	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž˜Ö˜
+S
+java:S1155N">Use isEmpty() to check whether the collection is empty or not.(×°µH
+T
+java:S4973x"9Use the "equals" method if value comparison was intended.(üõÒ´üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(žŠ·Æúÿÿÿÿ
+b
+java:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ
+c
+java:S20955"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅþÿÿÿÿ

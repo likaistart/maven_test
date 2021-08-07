@@ -1,0 +1,45 @@
+
+o
+java:S1192]"TDefine a constant instead of duplicating this literal "yyyy-MM-dd HH:mm:ss" 3 times.(‘ÖÒâıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òŸ³•üÿÿÿÿ
+
+java:S14888"fImmediately return this expression instead of assigning it to the temporary variable "lastDayOfMonth".(–ñÈÌÿÿÿÿÿ
+
+java:S1488H"fImmediately return this expression instead of assigning it to the temporary variable "lastDayOfMonth".(ÚÏØˆşÿÿÿÿ
+x
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "time".(ş÷®ïøÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(‹Ô
+O
+java:S2130+"9Use "Integer.parseInt" for this string-to-int conversion.(ıáà‚
+O
+java:S2130,"9Use "Integer.parseInt" for this string-to-int conversion.(¦Û²ï
+O
+java:S2130?"9Use "Integer.parseInt" for this string-to-int conversion.(ıáà‚
+O
+java:S2130@"9Use "Integer.parseInt" for this string-to-int conversion.(¦Û²ï
+N
+java:S1854N"8Remove this useless assignment to local variable "cal1".(ˆ…æç
+U
+java:S1854_"?Remove this useless assignment to local variable "endDateOver".(’ß¸§
+W
+java:S1854^"<Remove this useless assignment to local variable "endDate1".(Ï¦¢»ûÿÿÿÿ
+Y
+java:S1854]">Remove this useless assignment to local variable "startDate1".(‘ÖÒâıÿÿÿÿ
+‡
+java:S1130Z"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å
+V	java:S125a"<This block of commented-out lines of code should be removed.(ì¸ıÿÿÿÿ
+V	java:S125h"<This block of commented-out lines of code should be removed.(°…Éñúÿÿÿÿ
+Q	java:S125r"<This block of commented-out lines of code should be removed.(£•–ï
+Q	java:S125|"<This block of commented-out lines of code should be removed.(Ÿß¿©
+R	java:S125‹"<This block of commented-out lines of code should be removed.(•ƒÎ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(§¯•Í
+R	java:S125¨"<This block of commented-out lines of code should be removed.(•—ÚÔ
+R	java:S125º"<This block of commented-out lines of code should be removed.(ªÛŞ
+?
+java:S1481N")Remove this unused "cal1" local variable.(ˆ…æç
+J
+java:S1481]"/Remove this unused "startDate1" local variable.(‘ÖÒâıÿÿÿÿ
+H
+java:S1481^"-Remove this unused "endDate1" local variable.(Ï¦¢»ûÿÿÿÿ
+F
+java:S1481_"0Remove this unused "endDateOver" local variable.(’ß¸§

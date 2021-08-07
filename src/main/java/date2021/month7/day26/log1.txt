@@ -1,0 +1,248 @@
+"C:\Program Files\Java\jdk1.8.0_151\bin\java.exe" -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:51163,suspend=y,server=n -XX:TieredStopAtLevel=1 -noverify -Dspring.profiles.active=dev -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:C:\Users\14329\AppData\Local\JetBrains\IntelliJIdea2020.2\captureAgent\debugger-agent.jar -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-web\2.5.3\spring-boot-starter-web-2.5.3.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter\2.3.6.RELEASE\spring-boot-starter-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot\2.3.6.RELEASE\spring-boot-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-autoconfigure\2.3.6.RELEASE\spring-boot-autoconfigure-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\javaApp\maven\repo\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-json\2.3.6.RELEASE\spring-boot-starter-json-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.3\jackson-datatype-jdk8-2.11.3.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.3\jackson-datatype-jsr310-2.11.3.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.3\jackson-module-parameter-names-2.11.3.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-tomcat\2.3.6.RELEASE\spring-boot-starter-tomcat-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\apache\tomcat\embed\tomcat-embed-core\9.0.39\tomcat-embed-core-9.0.39.jar;D:\javaApp\maven\repo\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.39\tomcat-embed-websocket-9.0.39.jar;D:\javaApp\maven\repo\org\springframework\spring-web\5.2.11.RELEASE\spring-web-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-webmvc\5.2.11.RELEASE\spring-webmvc-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-common-db\1.1-SNAPSHOT\jdd-common-db-1.1-20210723.105242-1.jar;D:\javaApp\maven\repo\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar;D:\javaApp\maven\repo\org\mybatis\spring\boot\mybatis-spring-boot-starter\2.1.1\mybatis-spring-boot-starter-2.1.1.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-jdbc\2.3.6.RELEASE\spring-boot-starter-jdbc-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;D:\javaApp\maven\repo\org\springframework\spring-jdbc\5.2.11.RELEASE\spring-jdbc-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-tx\5.2.11.RELEASE\spring-tx-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\2.1.1\mybatis-spring-boot-autoconfigure-2.1.1.jar;D:\javaApp\maven\repo\org\mybatis\mybatis\3.5.3\mybatis-3.5.3.jar;D:\javaApp\maven\repo\org\mybatis\mybatis-spring\2.0.3\mybatis-spring-2.0.3.jar;D:\javaApp\maven\repo\com\github\pagehelper\pagehelper-spring-boot-starter\1.2.5\pagehelper-spring-boot-starter-1.2.5.jar;D:\javaApp\maven\repo\com\github\pagehelper\pagehelper-spring-boot-autoconfigure\1.2.5\pagehelper-spring-boot-autoconfigure-1.2.5.jar;D:\javaApp\maven\repo\com\github\pagehelper\pagehelper\5.1.4\pagehelper-5.1.4.jar;D:\javaApp\maven\repo\com\github\jsqlparser\jsqlparser\1.0\jsqlparser-1.0.jar;D:\javaApp\maven\repo\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\javaApp\maven\repo\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-common-view\1.1-SNAPSHOT\jdd-common-view-1.1-20210723.105238-1.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-log4j2\2.3.6.RELEASE\spring-boot-starter-log4j2-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-slf4j-impl\2.13.3\log4j-slf4j-impl-2.13.3.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-jul\2.13.3\log4j-jul-2.13.3.jar;D:\javaApp\maven\repo\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\javaApp\maven\repo\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;D:\javaApp\maven\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\javaApp\maven\repo\commons-codec\commons-codec\1.14\commons-codec-1.14.jar;D:\javaApp\maven\repo\org\projectlombok\lombok\1.16.20\lombok-1.16.20.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-validation\2.3.6.RELEASE\spring-boot-starter-validation-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\javaApp\maven\repo\org\hibernate\validator\hibernate-validator\6.1.6.Final\hibernate-validator-6.1.6.Final.jar;D:\javaApp\maven\repo\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;D:\javaApp\maven\repo\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;D:\javaApp\maven\repo\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-starter-security\1.1-SNAPSHOT\jdd-starter-security-1.1-20210723.105236-1.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-starter-redis\1.1-SNAPSHOT\jdd-starter-redis-1.1-20210723.105233-1.jar;D:\javaApp\maven\repo\org\springframework\boot\spring-boot-starter-data-redis\2.3.6.RELEASE\spring-boot-starter-data-redis-2.3.6.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\data\spring-data-redis\2.3.5.RELEASE\spring-data-redis-2.3.5.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\data\spring-data-keyvalue\2.3.5.RELEASE\spring-data-keyvalue-2.3.5.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\data\spring-data-commons\2.3.5.RELEASE\spring-data-commons-2.3.5.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-oxm\5.2.11.RELEASE\spring-oxm-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-context-support\5.2.11.RELEASE\spring-context-support-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\io\lettuce\lettuce-core\5.3.5.RELEASE\lettuce-core-5.3.5.RELEASE.jar;D:\javaApp\maven\repo\io\netty\netty-common\4.1.54.Final\netty-common-4.1.54.Final.jar;D:\javaApp\maven\repo\io\netty\netty-handler\4.1.54.Final\netty-handler-4.1.54.Final.jar;D:\javaApp\maven\repo\io\netty\netty-resolver\4.1.54.Final\netty-resolver-4.1.54.Final.jar;D:\javaApp\maven\repo\io\netty\netty-buffer\4.1.54.Final\netty-buffer-4.1.54.Final.jar;D:\javaApp\maven\repo\io\netty\netty-codec\4.1.54.Final\netty-codec-4.1.54.Final.jar;D:\javaApp\maven\repo\io\netty\netty-transport\4.1.54.Final\netty-transport-4.1.54.Final.jar;D:\javaApp\maven\repo\io\projectreactor\reactor-core\3.3.11.RELEASE\reactor-core-3.3.11.RELEASE.jar;D:\javaApp\maven\repo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;D:\javaApp\maven\repo\org\sction\phprpc\3.0.2\phprpc-3.0.2.jar;D:\javaApp\maven\repo\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;D:\javaApp\maven\repo\org\apache\directory\studio\org.apache.commons.codec\1.8\org.apache.commons.codec-1.8.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-utils\1.1-SNAPSHOT\jdd-utils-1.1-20210723.105237-2.jar;D:\javaApp\maven\repo\org\bouncycastle\bcpg-jdk15on\1.68\bcpg-jdk15on-1.68.jar;D:\javaApp\maven\repo\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;D:\javaApp\maven\repo\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\javaApp\maven\repo\com\jdd\zhujia\jdd-starter-mq\1.1-SNAPSHOT\jdd-starter-mq-1.1-20210723.105243-1.jar;D:\javaApp\maven\repo\com\aliyun\mq\mq-http-sdk\1.0.3\mq-http-sdk-1.0.3.jar;D:\javaApp\maven\repo\org\apache\httpcomponents\httpasyncclient\4.1.4\httpasyncclient-4.1.4.jar;D:\javaApp\maven\repo\org\apache\httpcomponents\httpcore-nio\4.4.13\httpcore-nio-4.4.13.jar;D:\javaApp\maven\repo\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-jcl\2.13.3\log4j-jcl-2.13.3.jar;D:\javaApp\maven\repo\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;D:\javaApp\maven\repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-web\2.6.2\log4j-web-2.6.2.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\javaApp\maven\repo\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;D:\javaApp\maven\repo\org\springframework\spring-context\5.2.11.RELEASE\spring-context-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-aop\5.2.11.RELEASE\spring-aop-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-beans\5.2.11.RELEASE\spring-beans-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-expression\5.2.11.RELEASE\spring-expression-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-core\5.2.11.RELEASE\spring-core-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\org\springframework\spring-jcl\5.2.11.RELEASE\spring-jcl-5.2.11.RELEASE.jar;D:\javaApp\maven\repo\com\alibaba\fastjson\1.2.58\fastjson-1.2.58.jar;D:\javaApp\maven\repo\org\apache\poi\poi\3.17\poi-3.17.jar;D:\javaApp\maven\repo\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\javaApp\maven\repo\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\javaApp\maven\repo\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\javaApp\maven\repo\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\javaApp\maven\repo\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\javaApp\maven\repo\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\SoftWare\Develop\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar" com.jdd.Application
+        Connected to the target VM, address: '127.0.0.1:51163', transport: 'socket'
+
+        .   ____          _            __ _ _
+        /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+        ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+        \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+        '  |____| .__|_| |_|_| |_\__, | / / / /
+        =========|_|==============|___/=/_/_/_/
+        :: Spring Boot ::        (v2.3.6.RELEASE)
+
+        2021-07-27 14:17:56:482|INFO |background-preinit|org.hibernate.validator.internal.util.Version-21| - HV000001: Hibernate Validator 6.1.6.Final
+        2021-07-27 14:17:56:538|INFO |main|com.jdd.Application-55| - Starting Application on LAPTOP-695L9GG8 with PID 29792 (E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes started by 14329 in E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center)
+        2021-07-27 14:17:56:542|INFO |main|com.jdd.Application-655| - The following profiles are active: dev
+        2021-07-27 14:17:57:477|INFO |main|org.springframework.data.repository.config.RepositoryConfigurationDelegate-249| - Multiple Spring Data modules found, entering strict repository configuration mode!
+        2021-07-27 14:17:57:481|INFO |main|org.springframework.data.repository.config.RepositoryConfigurationDelegate-127| - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+        2021-07-27 14:17:57:570|INFO |main|org.springframework.data.repository.config.RepositoryConfigurationDelegate-187| - Finished Spring Data repository scanning in 75ms. Found 0 Redis repository interfaces.
+        2021-07-27 14:17:58:251|INFO |main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer-108| - Tomcat initialized with port(s): 8100 (http)
+        2021-07-27 14:17:58:259|INFO |main|org.apache.coyote.http11.Http11NioProtocol-173| - Initializing ProtocolHandler ["http-nio-8100"]
+        2021-07-27 14:17:58:260|INFO |main|org.apache.catalina.core.StandardService-173| - Starting service [Tomcat]
+        2021-07-27 14:17:58:260|INFO |main|org.apache.catalina.core.StandardEngine-173| - Starting Servlet engine: [Apache Tomcat/9.0.39]
+        2021-07-27 14:17:58:376|INFO |main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/user_center]-173| - Initializing Spring embedded WebApplicationContext
+        2021-07-27 14:17:58:376|INFO |main|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-285| - Root WebApplicationContext: initialization completed in 1681 ms
+        2021-07-27 14:17:58:567|INFO |main|com.jdd.zhujia.redis.configuration.RedisCacheConfig-22| - 开始加载redisTemplate...
+        2021-07-27 14:17:58:621|INFO |main|com.jdd.zhujia.redis.configuration.RedisCacheConfig-30| - 完成加载redisTemplate...
+        Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\DiscountsMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\PaymentLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserGroupMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserItemcateMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserOrderMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\DiscountsMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\PaymentLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserGroupMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserItemcateMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\UserOrderMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\admin\AdminMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\area\B2CAreaMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\exam\B2CExamGradeMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\itemcate\ServerItemcateMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\order\B2COrderMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\user\UserGoodstplMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\user\UserMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\user\UserReflowDiscountMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\user\UserWalletLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\user\UserWalletMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\B2CComplaintsMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\ComplaintMatterTypesMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\ComplaintRulesMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\GoodsSpecsMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewGradeConfigMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewServerQualityMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewServerSkillMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewSyntheticalGradeMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewSyntheticalRuleMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewTitleConditionMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewTitleConfigMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\NewWorkerGradeEquitiesMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\OrderAppointmentMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\OrderAppraiseMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\OrderGoodsMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\OrderOperationLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\StatisticWorkerOrderMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerCertTypeMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerCertificatesMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerDepositLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerExamMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerFeedbackMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerPunishMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerSertypesMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerWalletLogMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkerWalletMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkersExtendMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkersInfoMapper.xml]'
+        Parsed mapper file: 'file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkersMapper.xml]'
+        2021-07-27 14:17:59:259|INFO |main|com.jdd.zhujia.user.component.UserTypeCache-32| - 初始化UserType缓存...
+        Creating a new SqlSession
+        SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@639cb788] was not registered for synchronization because synchronization is not active
+        2021-07-27 14:17:59:274|INFO |main|com.zaxxer.hikari.HikariDataSource-110| - HikariPool-1 - Starting...
+        2021-07-27 14:17:59:650|INFO |main|com.zaxxer.hikari.HikariDataSource-123| - HikariPool-1 - Start completed.
+        JDBC Connection [HikariProxyConnection@493057651 wrapping com.mysql.cj.jdbc.ConnectionImpl@2913ca3e] will not be managed by Spring
+        ==>  Preparing: select id, name, type, admin_id, status, createtime, updatetime from b2c_user_type
+        ==> Parameters:
+        <==    Columns: id, name, type, admin_id, status, createtime, updatetime
+        <==        Row: 1, 个人, 2, 0, 1, 1588833641, 1593659154
+        <==        Row: 2, 灯具商家, 1, 0, 1, 1588833650, 1593659149
+        <==        Row: 3, 卫浴商家, 1, 0, 1, 1593659137, 1593659137
+        <==        Row: 4, 晾衣架商家, 1, 0, 1, 1597025563, 1597025563
+        <==        Row: 5, 家具商家, 1, 0, 1, null, null
+        <==        Row: 6, 窗帘商家, 1, 0, 1, null, null
+        <==        Row: 7, 地板商家, 1, 0, 1, null, null
+        <==        Row: 8, 墙纸商家, 1, 0, 1, null, null
+        <==        Row: 9, 木门商家, 1, 0, 1, null, null
+        <==        Row: 10, 锁类商家, 1, 0, 1, null, null
+        <==      Total: 10
+        Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@639cb788]
+        2021-07-27 14:18:00:297|INFO |main|com.jdd.zhujia.user.component.UserTypeCache-37| - UserType初始化完成
+        2021-07-27 14:18:00:301|INFO |main|com.jdd.zhujia.configuration.MqConfiguration-25| - MQ生产者初始化...
+        2021-07-27 14:18:00:488|INFO |main|com.jdd.zhujia.configuration.MqConfiguration-27| - MQ生产者初始化完成...
+        2021-07-27 14:18:00:525|INFO |main|com.jdd.zhujia.user.consumer.UserVipConsumer-60| - RocketMQ UserVipConsumer init...
+        2021-07-27 14:18:00:584|INFO |main|com.jdd.zhujia.user.configuration.PayTypeRelationConfiguration-17| - payTypeRelation初始化...
+        2021-07-27 14:18:00:584|INFO |main|com.jdd.zhujia.user.configuration.PayTypeRelationConfiguration-19| - payTypeRelation初始化完毕
+        2021-07-27 14:18:00:644|INFO |main|com.jdd.zhujia.security.verify.SmsCodeVerify-36| - SmsCodeVerify注入redisUtil:com.jdd.zhujia.redis.utils.RedisUtil
+        2021-07-27 14:18:00:875|INFO |main|com.jdd.zhujia.user.configuration.ConsumerConfiguration-36| - userRegisterConsumer Init...
+        2021-07-27 14:18:00:876|INFO |main|com.jdd.zhujia.mq.Provider-39| - mqClient is open:true
+        2021-07-27 14:18:00:876|INFO |main|com.jdd.zhujia.user.configuration.ConsumerConfiguration-38| - userRegisterConsumer Init Success
+        2021-07-27 14:18:00:876|INFO |main|com.jdd.zhujia.user.consumer.UserRegisterConsumer-41| - Thread Consumer init...
+        2021-07-27 14:18:00:876|INFO |main|com.jdd.zhujia.user.consumer.UserRegisterConsumer-102| - Thread Consumer init success
+        2021-07-27 14:18:01:031|INFO |main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor-181| - Initializing ExecutorService 'applicationTaskExecutor'
+        2021-07-27 14:18:01:180|INFO |main|com.jdd.zhujia.redis.configuration.RedisCacheConfig-36| - 开始加载listenerContainer...
+        2021-07-27 14:18:01:181|INFO |main|com.jdd.zhujia.redis.configuration.RedisCacheConfig-39| - 完成加载listenerContainer...
+        2021-07-27 14:18:01:558|INFO |main|org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler-181| - Initializing ExecutorService 'taskScheduler'
+        2021-07-27 14:18:01:597|INFO |main|org.apache.coyote.http11.Http11NioProtocol-173| - Starting ProtocolHandler ["http-nio-8100"]
+        2021-07-27 14:18:01:619|INFO |main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer-220| - Tomcat started on port(s): 8100 (http) with context path '/user_center'
+        2021-07-27 14:18:01:639|INFO |main|com.jdd.Application-61| - Started Application in 5.535 seconds (JVM running for 6.673)
+        2021-07-27 14:18:18:374|INFO |http-nio-8100-exec-2|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/user_center]-173| - Initializing Spring DispatcherServlet 'dispatcherServlet'
+        2021-07-27 14:18:18:374|INFO |http-nio-8100-exec-2|org.springframework.web.servlet.DispatcherServlet-525| - Initializing Servlet 'dispatcherServlet'
+        2021-07-27 14:18:18:392|INFO |http-nio-8100-exec-2|org.springframework.web.servlet.DispatcherServlet-547| - Completed initialization in 17 ms
+        2021-07-27 14:18:18:449|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-56| - 请求uri:/user_center/worker/workerList
+        2021-07-27 14:18:18:450|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-96| - token:up:f1f5bac9-bd97-4a26-b3ea-8b059300ba36
+        2021-07-27 14:18:18:465|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-98| - tokenup:f1f5bac9-bd97-4a26-b3ea-8b059300ba36
+        Creating a new SqlSession
+        Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@433f7603]
+        Cache Hit Ratio [SQL_CACHE]: 0.0
+        JDBC Connection [HikariProxyConnection@908462436 wrapping com.mysql.cj.jdbc.ConnectionImpl@2913ca3e] will be managed by Spring
+        ==>  Preparing: select count(0) from (select worker_id,ser_area_im,ser_class_im,ser_class_se,title_ids,grade_id,bw.created_at,bw.nickname,bwe.real_name,bw.mobile,bw.created_at,bw.status from b2c_worker_extends bwe join b2c_workers bw on bwe.worker_id=bw.id WHERE ser_class_im in) tmp_count
+        ==> Parameters:
+        Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@433f7603]
+        Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@433f7603]
+        Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@433f7603]
+        2021-07-27 14:18:41:088|ERROR|http-nio-8100-exec-2|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/user_center].[dispatcherServlet]-175| - Servlet.service() for servlet [dispatcherServlet] in context with path [/user_center] threw exception [Request processing failed; nested exception is org.springframework.jdbc.UncategorizedSQLException:
+        ### Error querying database.  Cause: java.sql.SQLException: [12d41825f1f56000-1][172.16.160.95:3306][b2c_test]ERROR. pos 281, line 5, column 29, token )
+        ### The error may exist in file [E:\Java\mywork\jdd\zhujia-java-user-center\zhujia-java-user-center\target\classes\com\jdd\zhujia\user\dao\worker\WorkersInfoMapper.xml]
+        ### The error may involve com.jdd.zhujia.user.dao.worker.WorkersInfoMapper.queryWorkerVo-Inline
+        ### The error occurred while setting parameters
+        ### SQL: select count(0) from (select     worker_id,ser_area_im,ser_class_im,ser_class_se,title_ids,grade_id,bw.created_at,bw.nickname,bwe.real_name,bw.mobile,bw.created_at,bw.status     from b2c_worker_extends bwe join b2c_workers bw on     bwe.worker_id=bw.id      WHERE  ser_class_im in) tmp_count
+        ### Cause: java.sql.SQLException: [12d41825f1f56000-1][172.16.160.95:3306][b2c_test]ERROR. pos 281, line 5, column 29, token )
+        ; uncategorized SQLException; SQL state [HY000]; error code [3009]; [12d41825f1f56000-1][172.16.160.95:3306][b2c_test]ERROR. pos 281, line 5, column 29, token ); nested exception is java.sql.SQLException: [12d41825f1f56000-1][172.16.160.95:3306][b2c_test]ERROR. pos 281, line 5, column 29, token )] with root cause
+        java.sql.SQLException: [12d41825f1f56000-1][172.16.160.95:3306][b2c_test]ERROR. pos 281, line 5, column 29, token )
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+        at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+        at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+        at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+        at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[mysql-connector-java-8.0.22.jar:8.0.22]
+        at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-3.4.5.jar:?]
+        at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-3.4.5.jar:?]
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+        at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+        at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59) ~[mybatis-3.5.3.jar:3.5.3]
+        at com.sun.proxy.$Proxy83.execute(Unknown Source) ~[?:?]
+        at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) ~[mybatis-3.5.3.jar:3.5.3]
+        at com.github.pagehelper.PageInterceptor.executeAutoCount(PageInterceptor.java:201) ~[pagehelper-5.1.4.jar:?]
+        at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:113) ~[pagehelper-5.1.4.jar:?]
+        at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61) ~[mybatis-3.5.3.jar:3.5.3]
+        at com.sun.proxy.$Proxy166.query(Unknown Source) ~[?:?]
+        at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) ~[mybatis-3.5.3.jar:3.5.3]
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+        at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+        at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) ~[mybatis-spring-2.0.3.jar:2.0.3]
+        at com.sun.proxy.$Proxy79.selectList(Unknown Source) ~[?:?]
+        at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) ~[mybatis-spring-2.0.3.jar:2.0.3]
+        at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) ~[mybatis-3.5.3.jar:3.5.3]
+        at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) ~[mybatis-3.5.3.jar:3.5.3]
+        at com.sun.proxy.$Proxy123.queryWorkerVo(Unknown Source) ~[?:?]
+        at com.jdd.zhujia.user.service.impl.NewWorkerExtendServiceImpl.queryList(NewWorkerExtendServiceImpl.java:82) ~[classes/:?]
+        at com.jdd.zhujia.user.service.impl.NewWorkerExtendServiceImpl$$FastClassBySpringCGLIB$$215b0931.invoke(<generated>) ~[classes/:?]
+        at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367) ~[spring-tx-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118) ~[spring-tx-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at com.jdd.zhujia.user.service.impl.NewWorkerExtendServiceImpl$$EnhancerBySpringCGLIB$$e2a4793d.queryList(<generated>) ~[classes/:?]
+        at com.jdd.zhujia.user.controller.adminController.WorkerListController.workerList(WorkerListController.java:42) ~[classes/:?]
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_151]
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_151]
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_151]
+        at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_151]
+        at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+        at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.39.jar:4.0.FR]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.11.RELEASE.jar:5.2.11.RELEASE]
+        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_151]
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_151]
+        at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
+        2021-07-27 14:18:41:098|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-56| - 请求uri:/user_center/error
+        2021-07-27 14:18:41:098|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-96| - token:up:f1f5bac9-bd97-4a26-b3ea-8b059300ba36
+        2021-07-27 14:18:41:098|INFO |http-nio-8100-exec-2|com.jdd.zhujia.security.interceptor.TokenInterceptor-98| - tokenup:f1f5bac9-bd97-4a26-b3ea-8b059300ba36
+        Disconnected from the target VM, address: '127.0.0.1:51163', transport: 'socket'
+
+        Process finished with exit code -1

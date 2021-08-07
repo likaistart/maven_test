@@ -1,0 +1,665 @@
+{
+        "code": 1,
+        "msg": "成功",
+        "time": 1627605727385,
+        "data": {
+                "total": 17,
+                "list": [
+                        {
+                                "id": 17,
+                                "titleName": "21",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-29 02:24:47",
+                                "updatedAt": "2021-07-29 02:24:47",
+                                "workerNum": 0,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 16,
+                                "titleName": "标签2",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "admin",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-28 08:41:20",
+                                "updatedAt": "2021-07-28 08:41:20",
+                                "workerNum": 1,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 15,
+                                "titleName": "1212",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "admin",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 06:58:08",
+                                "updatedAt": "2021-07-27 06:58:08",
+                                "workerNum": 1,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 14,
+                                "titleName": "21",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 06:56:05",
+                                "updatedAt": "2021-07-27 06:56:05",
+                                "workerNum": 0,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 13,
+                                "titleName": "行业老手2",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 06:41:07",
+                                "updatedAt": "2021-07-27 06:41:07",
+                                "workerNum": 1,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 12,
+                                "titleName": "行业老手2",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 06:27:47",
+                                "updatedAt": "2021-07-27 06:27:47",
+                                "workerNum": 43,
+                                "gradeEquitiesEntity": []
+                        },
+                        {
+                                "id": 11,
+                                "titleName": "行业老手2",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "周完成率",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 10:14:15",
+                                "updatedAt": "2021-07-27 10:16:42",
+                                "workerNum": 0,
+                                "gradeEquitiesEntity": [
+                                        {
+                                                "id": 1,
+                                                "projectName": "考核项目：周完成率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "周完成总量",
+                                                        "$value",
+                                                        "周接单总数「剔除挂起订单",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "周完成总量,/,周接单总数「剔除挂起订单,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        },
+                                        {
+                                                "id": 2,
+                                                "projectName": "考核项目：月售后率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "月成立售后数量",
+                                                        "$value",
+                                                        "月承接总订单数量",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "月成立售后数量,/,月承接总订单数量,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        }
+                                ]
+                        },
+                        {
+                                "id": 10,
+                                "titleName": "行业老手",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "周完成率",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 10:03:35",
+                                "updatedAt": "2021-07-27 10:05:52",
+                                "workerNum": 0,
+                                "gradeEquitiesEntity": [
+                                        {
+                                                "id": 1,
+                                                "projectName": "考核项目：周完成率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "周完成总量",
+                                                        "$value",
+                                                        "周接单总数「剔除挂起订单",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "周完成总量,/,周接单总数「剔除挂起订单,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        },
+                                        {
+                                                "id": 2,
+                                                "projectName": "考核项目：月售后率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "月成立售后数量",
+                                                        "$value",
+                                                        "月承接总订单数量",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "月成立售后数量,/,月承接总订单数量,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        }
+                                ]
+                        },
+                        {
+                                "id": 9,
+                                "titleName": "行业老手",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "周完成率",
+                                "creator": "商家358461",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-07-27 09:42:24",
+                                "updatedAt": "2021-07-27 09:42:24",
+                                "workerNum": 86,
+                                "gradeEquitiesEntity": [
+                                        {
+                                                "id": 1,
+                                                "projectName": "考核项目：周完成率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "周完成总量",
+                                                        "$value",
+                                                        "周接单总数「剔除挂起订单",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "周完成总量,/,周接单总数「剔除挂起订单,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        },
+                                        {
+                                                "id": 2,
+                                                "projectName": "考核项目：月售后率",
+                                                "valueStr": [
+                                                        "",
+                                                        "/",
+                                                        "",
+                                                        ">",
+                                                        "11"
+                                                ],
+                                                "templateList": [
+                                                        "月成立售后数量",
+                                                        "$value",
+                                                        "月承接总订单数量",
+                                                        "$value",
+                                                        "$value"
+                                                ],
+                                                "conditionContent": "月成立售后数量,/,月承接总订单数量,>,11",
+                                                "relationList": [
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "+"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "-"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "*"
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "/"
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "1",
+                                                                        "value": "大于:>"
+                                                                },
+                                                                {
+                                                                        "key": "2",
+                                                                        "value": "小于:>"
+                                                                },
+                                                                {
+                                                                        "key": "3",
+                                                                        "value": "大于等于:>="
+                                                                },
+                                                                {
+                                                                        "key": "4",
+                                                                        "value": "小于等于:<="
+                                                                },
+                                                                {
+                                                                        "key": "5",
+                                                                        "value": "不等于:!="
+                                                                },
+                                                                {
+                                                                        "key": "6",
+                                                                        "value": "等于:=="
+                                                                }
+                                                        ],
+                                                        [
+                                                                {
+                                                                        "key": "0",
+                                                                        "value": ""
+                                                                }
+                                                        ]
+                                                ]
+                                        }
+                                ]
+                        },
+                        {
+                                "id": 8,
+                                "titleName": "干活杠杠滴，新人",
+                                "titleTypeName": "手动标签",
+                                "titleCondition": "",
+                                "creator": "商家983724",
+                                "enableFlagName": "启用",
+                                "enableFlag": "1",
+                                "createdAt": "2021-06-28 10:34:55",
+                                "updatedAt": "2021-07-03 05:00:03",
+                                "workerNum": 86,
+                                "gradeEquitiesEntity": []
+                        }
+                ],
+                "pageNum": 1,
+                "pageSize": 10,
+                "size": 10,
+                "startRow": 0,
+                "endRow": 9,
+                "pages": 1,
+                "prePage": 0,
+                "nextPage": 0,
+                "isFirstPage": true,
+                "isLastPage": true,
+                "hasPreviousPage": false,
+                "hasNextPage": false,
+                "navigatePages": 8,
+                "navigatepageNums": [
+                        1
+                ],
+                "navigateFirstPage": 1,
+                "navigateLastPage": 1,
+                "firstPage": 1,
+                "lastPage": 1
+        },
+        "total": null,
+        "page": null,
+        "pageSize": null,
+        "msgType": null
+}

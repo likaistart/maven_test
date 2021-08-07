@@ -1,0 +1,18 @@
+
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¯í˜É8¢”ÄŸ±/
+]	java:S125#"<This block of commented-out lines of code should be removed.(°¬‘öøÿÿÿÿ8¸–¥Ÿ±/
+X	java:S1250"<This block of commented-out lines of code should be removed.(§Ó¯ƒ8öÄÃŸ±/
+i
+java:S1128"GRemove this unused import 'date2021.date.mapper.worker4.B2CAreaMapper'.(±„ÇÉÿÿÿÿÿ8¤”ÄŸ±/
+]
+java:S1128"@Remove this unused import 'date2021.date.model.worker4.B2CArea'.(ÄÓ›ž8¤”ÄŸ±/
+S
+java:S1128"6Remove this unused import 'lombok.extern.slf4j.Slf4j'.(ûúÄ®8¥”ÄŸ±/
+c
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8¥”ÄŸ±/
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8¥”ÄŸ±/
+g
+java:S1128	"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8¥”ÄŸ±/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÜ³3

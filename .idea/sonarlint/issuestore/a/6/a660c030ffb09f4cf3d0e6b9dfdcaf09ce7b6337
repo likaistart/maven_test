@@ -1,0 +1,18 @@
+
+J
+java:S3740""/Provide the parametrized type for this generic.(¾ÌËüùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ôê¢’ùÿÿÿÿ
+^
+java:S1854'"<Remove this useless assignment to local variable "repGroup".(õí“£şÿÿÿÿ8ÄÛšã°/
+O
+java:S2864#"4Iterate over the "entrySet" instead of the "keySet".(ş·Ë»ıÿÿÿÿ
+O
+java:S1481'"-Remove this unused "repGroup" local variable.(õí“£şÿÿÿÿ8ÄÛšã°/
+X	java:S125("<This block of commented-out lines of code should be removed.(¨’ÔŞ8ÄÛšã°/
+Y
+java:S1128"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ8ÑÌ×°/
+k
+java:S1128"NRemove this unused import 'com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput'.(ÓÒÒÃ8ÑÌ×°/
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(ÓÒÒÃ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğË¡	

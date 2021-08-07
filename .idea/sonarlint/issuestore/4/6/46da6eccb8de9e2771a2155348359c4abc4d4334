@@ -1,0 +1,35 @@
+
+Z
+java:S2147c"DCombine this catch with the one at line 96, which has the same body.(”ý¾
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(áó¡½üÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(ÁÁˆ»
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(»µ‚·ÿÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ
+<
+java:S1481C"'Remove this unused "id" local variable.(°æ—L
+E
+java:S1481D"*Remove this unused "title" local variable.(Å—‚›ýÿÿÿÿ
+M
+java:S1481Z"7Remove this unused "asignLevelByStreet" local variable.(­ÿáØ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(Ý„ó¡ýÿÿÿÿ
+H
+java:S1135d"2Complete the task associated to this TODO comment.(‡ñÅ¼
+M	java:S106g"9Replace this use of System.out or System.err by a logger.(Ë³ø{
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(‰¯Çøÿÿÿÿ
+_
+java:S2153q"IRemove the boxing to "Integer"; The argument is already of the same type.(ž˜Ö˜
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(˜ùæ¤
+m
+java:S1192="RDefine a constant instead of duplicating this literal "-----------------" 3 times.(Å˜õçüÿÿÿÿ
+f	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž˜Ö˜
+T
+java:S4973w"9Use the "equals" method if value comparison was intended.(üõÒ´üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(žŠ·Æúÿÿÿÿ
+c
+java:S20954"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅþÿÿÿÿ
+b
+java:S20958"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ

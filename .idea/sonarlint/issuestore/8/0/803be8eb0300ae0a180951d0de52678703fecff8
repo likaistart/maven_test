@@ -1,0 +1,14 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úóÚä
+Y
+java:S1854">Remove this useless assignment to local variable "threadList".(ŒáîÂÿÿÿÿÿ
+Œ
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+h
+java:S4065"FReplace this anonymous class with a call to "ThreadLocal.withInitial".(ŒáîÂÿÿÿÿÿ8Æ‚µè¬/
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦’"8È‚µè¬/
+V	java:S125"<This block of commented-out lines of code should be removed.(ü€šüÿÿÿÿ
+Q	java:S125?"<This block of commented-out lines of code should be removed.(¯·Ä±
+J
+java:S1481"/Remove this unused "threadList" local variable.(ŒáîÂÿÿÿÿÿ

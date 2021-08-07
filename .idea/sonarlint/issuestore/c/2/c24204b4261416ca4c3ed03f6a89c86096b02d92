@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ú×şÆÿÿÿÿÿ8ÃÍ±/
+X	java:S125"<This block of commented-out lines of code should be removed.(šÌ¸Ë8ËÉ‹±/
+>
+java:S1116"Remove this empty statement.(Ú×şÆÿÿÿÿÿ8ÆÍ±/
+>
+java:S2111!"!Use "BigDecimal.valueOf" instead.(˜¹‘­8ÌÉ‹±/
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬†“»8ÏÉ‹±/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çî“

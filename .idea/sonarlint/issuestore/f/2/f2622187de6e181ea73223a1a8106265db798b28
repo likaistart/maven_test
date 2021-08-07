@@ -1,0 +1,19 @@
+
+E
+java:S3740+"/Provide the parametrized type for this generic.(ÊûäÍ
+Q	java:S125"<This block of commented-out lines of code should be removed.(øÿ…Ã
+Q	java:S125"<This block of commented-out lines of code should be removed.(ËŠ”¶
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ÛÄÆÏ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¡¤Ùÿÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(—©ë£
+R
+java:S1128"6Remove this unused import 'com.alibaba.fastjson.JSON'.(Ö¢å$8ßî“¹°/
+T
+java:S11551">Use isEmpty() to check whether the collection is empty or not.(´İ¬›
+2
+java:S1643>"Use a StringBuilder instead.(Ÿ¦¹
+2
+java:S1643@"Use a StringBuilder instead.(•çìü
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿½§¯ûÿÿÿÿ
+Z
+java:S25831"DChange this condition so that it does not always evaluate to "false"(´İ¬›

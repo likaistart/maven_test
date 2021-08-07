@@ -1,0 +1,8 @@
+
+
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(âûµ úÿÿÿÿ8á—Ôô°/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¯öÓ8æ—Ôô°/
+]	java:S125"<This block of commented-out lines of code should be removed.(Û…Í•úÿÿÿÿ8æ—Ôô°/
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(ÿğÎîşÿÿÿÿ8ï—Ôô°/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ªş8ı—Ôô°/

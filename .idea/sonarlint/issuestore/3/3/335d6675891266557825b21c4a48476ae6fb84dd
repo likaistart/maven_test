@@ -1,0 +1,10 @@
+
+G
+java:S1905"*Remove this unnecessary cast to "Student".(¥áœ8²ÃÁ¼°/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(„íí8ïÁ†¼°/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÖĞ ÷8ğÁ†¼°/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•˜¤õ8ğÁ†¼°/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ü×Ø¦8ñÁ†¼°/
+o
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(£‚g8µÃÁ¼°/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Êƒêÿÿÿÿÿ
